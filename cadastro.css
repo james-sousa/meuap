@@ -1,0 +1,121 @@
+body {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1C1818;
+}
+  
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+   
+    
+}  
+.left-panel {
+    width: 45%;
+    height: 100%;
+    margin-left: 0;
+    top: 0;
+    background-color: #FFD558;
+    display: flex;
+    flex-direction: column;
+}
+  
+.right-panel {
+    width: 475px;
+    height: 100%;
+    margin-top: 12px;
+    margin-left: 43px;
+    background-color: white;
+}
+
+  
+.logo {
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 112px;
+    margin-left: 120px;
+    
+    
+}
+  
+.slogan {
+    font-size: 20px;
+    font-weight: 400;
+    
+    margin-left: 120px;
+    
+}
+
+.slogan h2 {
+    margin-top: -70px;
+}
+ 
+  
+
+  
+.login-form {
+    margin-top: 40px;
+    margin-left: 22px;
+}
+  
+.login-form h2 {
+    font-size: 44px;
+    font-weight: 800;
+    text-align: center;
+}
+  
+.login-form input {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+  
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button, .register-button {
+    width: 48%; /* Ajuste conforme necessário, dependendo do espaçamento desejado */
+    height: 40px;
+    background-color: #03070c;
+    display: flex;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+  
+.forgot-password {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+  
+.social-login-options {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row; 
+    margin-left: 140px;
+}
+  
+.social-login-options a {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+  
+.social-login-options img {
+    width: 40px;
+}

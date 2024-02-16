@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeuAp - Busque seu lar ideal</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="barra-amarela">
+
+            
+        <header>
+            <a href="#">
+                <div class="logo">MeuAp</div>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="/cadastro_imovel.html">Proprietários</a></li>
+                    <li><a href="/imoveis.html">Imoveis</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <div class="caixa-pequena">
+                        <li><a href="login2.html">Login</a></li>
+                    </div>
+                    
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+
+
+    <div class="container">
+        
+        <main>
+            <div class="img-wrapper">
+                <img src="images/pexels-andrew-neel-3178744.jpg" alt="">
+            </div>
+            <div class="caixa-amarela">
+
+                <div class="hero">
+                    <h1>Encontre um lar para chamar de seu</h1>
+                    <p>Busque por imóveis em várias cidades e encontre o seu lar perfeito.</p>
+                </div>
+                <form action="#" method="get">
+                    
+                    <div class="search-bar">
+                        <div class="caixa-branca">
+                            <label>
+                                <img src="/images/icons8-google-maps-100.png" alt="Ícone de Cidade">
+                                <input type="text" name="city" placeholder="Busque por cidade" required>
+                            </label>
+                        </div>
+                        
+                        <!-- Campo de busca por bairro -->
+                        <div class="caixa-branca2">
+
+                            <label>
+                                <img src="/images/icons8-casa-50.png" alt="Ícone de Bairro">
+                                <input type="text" name="neighborhood" placeholder="Busque por bairro (opcional)">
+                            </label>
+                        </div>
+                        
+
+                        <!-- Campo de número de quartos -->
+                        <div class="caixa-branca3">
+                            <label class="numero-quartos">
+                                <img src="/images/icons8-cama-80.png" alt="Ícone de Quartos">
+                                <input class="small-input" type="number" name="rooms" min="1" placeholder="Quartos (mínimo 1)">
+                            </label>
+                            
+                        </div>
+                        <div class="caixa-branca4">
+
+                            <label class="dinheiro">
+                                <img src="/images/icons8-dinheiro-80.png" alt="Ícone de Preço">
+                                <input class="small-input" type="number" name="price" min="0" placeholder="Valor total até (reais)">
+                            </label>
+                        </div>
+                        
+
+                        <!-- Campo de valor total -->
+                        <div class="caixa-azul">
+                            <button type="submit">Buscar imóveis</button>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+            
+            
+
+        </main>
+       
+    </div> 
+    <section id="sobre">
+        <h1>Sobre</h1>
+        <p>
+            MeuAp: Conectando imobiliárias  e donos de imovéis para ajudar mais pessoas a encontrar o lar ideal.
+
+            Imobiliárias e donos de imovéis que fizerem parte do pacote plus do MeuAp poderão anunciar seus imóveis na plataforma de moradia sem pagar mensalidade.
+            
+            
+            
+            
+            
+            
+            O serviço 'MeuAP' representa uma abordagem inovadora e acessível para simplificar o processo de aluguel de apartamentos. 
+            Nosso método visa proporcionar aos usuários uma experiência prática e eficiente, tornando o aluguel de apartamentos mais 
+            simples do que nunca. Com 'MeuAP', buscamos facilitar o acesso e oferecer uma solução conveniente para aqueles que buscam
+            alugar um apartamento de maneira descomplicada. Nossa equipe, composta por James Sousa, Gabriel Queiroz, Simão Morais e
+            Mateus Alves, está empenhada em aprimorar a sua experiência na busca por apartamentos.
+        </p>
+    </section>
+    <section class="sessao-contato">
+        <div class="contato-wrapper">
+        <div class="contato-left"></div>
+        <div class="contato-rigth">
+          <h1>Contato</h1>
+          <form>
+            <div class="input-group">
+              <input type="text" class="field" id="nome">
+              <label form="nome" class ="field-label">Nome</label>
+            </div>
+            <div class="input-group">
+              <input type="text" class="field" id="email">
+              <label form="email" class="field-label">E-mail</label>
+            </div>
+            <div class="input-group">
+             <textarea class="field" id="mensagem" ></textarea>
+              <label form="mensagem" class="field-label">Mensagem</label>
+            </div>
+            <button type="submit" class="btn-submit">Enviar</button>
+          </form>
+
+        </div>
+
+        </div>
+        
+    </section>
+    <footer>
+        <div class="footer-container">
+            <p>Copyrigth &copy; 2024, MeuAp P.D-Todos os direitos reservados</p>
+            <div class="social-list">
+              <ul>
+                <li><a href="https://github.com/james-sousa"><i class="fab fa-github-alt"></i></a></li>
+                <li><a href="https://www.instagram.com/james_sousa_of/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/james-sousa-bb5bb51b1/"><i class="fab fa-linkedin"></i></a></li>
+
+              </ul>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>

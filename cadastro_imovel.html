@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeuAp - Busque seu lar ideal</title>
+    <link rel="stylesheet" href="cadastro_imovel.css">
+</head>
+<body>
+    <div class="barra-amarela">
+
+            
+        <header>
+            <a href="#">
+                <div class="logo">MeuAp</div>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="/home4.html">Home</a></li>
+                    <li><a href="/imoveis.html">Imoveis</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <div class="caixa-pequena">
+                        <li><a href="login2.html">Sair</a></li>
+                    </div>
+                    
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+
+
+    <div class="container">
+        
+        <main>
+            <div class="img-wrapper">
+                <img src="images/pexels-alena-darmel-7641897.jpg" alt="">
+            </div>
+            <div class="caixa-amarela">
+
+                <div class="hero">
+                    <h1>Anuncie Seu Imovél</h1>
+                    
+                </div>
+                <form action="#" method="get">
+                    
+                    <div class="search-bar">
+                        <div class="caixa-branca">
+                            <label>
+                                <img src="/images/icons8-google-maps-100.png" alt="Ícone de Cidade">
+                                <input type="text" name="city" placeholder="Digite o nome da cidade" required>
+                            </label>
+                        </div>
+                        
+                        <!-- Campo de busca por bairro -->
+                        <div class="caixa-branca2">
+
+                            <label>
+                                <img src="/images/icons8-casa-50.png" alt="Ícone de Bairro">
+                                <input type="text" name="neighborhood" placeholder="Digite O Endereço Completo">
+                            </label>
+                        </div>
+                        
+
+                        <!-- Campo de número de quartos -->
+                        <div class="caixa-branca8">
+
+                            <label>
+                                <img src="/images/icons8-casa-50.png" alt="Ícone de Bairro">
+                                <input type="text" name="neighborhood" placeholder="Descrição do Imovél">
+                            </label>
+                        </div>
+                        
+                        <div class="caixa-branca4">
+
+                            <label>
+                                <img src="/images/Imagem colada.png" alt="Ícone contato">
+                                <input type="text" name="neighborhood" placeholder="Contato">
+                            </label>
+                        </div>
+
+                        <div class="caixa-branca5">
+
+                            <label class="dinheiro">
+                                <img src="/images/icons8-dinheiro-80.png" alt="Ícone de Preço">
+                                <input class="small-input" type="number" name="price" min="0" placeholder="Valor total até (reais)">
+                            </label>
+                        </div>
+                        
+                        <div class="upload-area">
+                            <input type="file" id="fileInput" class="inputfile" onchange="showFileName()">
+                            <label for="fileInput" class="upload-button">Escolher arquivo</label>
+                            <span id="fileName" class="file-name">Nenhum arquivo selecionado</span>
+                        </div>
+                        <!-- Campo de valor total -->
+                        <div class="caixa-azul">
+                            <button type="submit">Cadastrar imóveis</button>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+            
+            
+
+        </main>
+       
+    </div> 
+    
+    <footer>
+        <div class="footer-container">
+            <p>Copyrigth &copy; 2024, MeuAp P.D-Todos os direitos reservados</p>
+            <div class="social-list">
+              <ul>
+                <li><a href="https://github.com/james-sousa"><i class="fab fa-github-alt"></i></a></li>
+                <li><a href="https://www.instagram.com/james_sousa_of/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/james-sousa-bb5bb51b1/"><i class="fab fa-linkedin"></i></a></li>
+
+              </ul>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>

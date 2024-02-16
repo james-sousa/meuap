@@ -1,0 +1,182 @@
+.container {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: white;
+  }
+  
+  .header {
+    width: 1540px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #FFD558;
+  }
+  
+  .button {
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word;
+  }
+  
+  #sair {
+    left: 1303px;
+    top: 32px;
+  }
+  
+  #ajuda {
+    left: 1097px;
+    top: 42px;
+  }
+  
+  #sobre {
+    left: 948px;
+    top: 42px;
+  }
+  
+  #proprietarios {
+    left: 706px;
+    top: 42px;
+  }
+  
+  #imoveis {
+    left: 488px;
+    top: 42px;
+  }
+  
+  .content {
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word;
+  }
+
+  .area {
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word;
+  }
+  
+  #descricao {
+    left: 365px;
+    top: 757px;
+  }
+
+  #label-descricao {
+    left: 365px;
+    top: 720px;
+  }
+  
+  #endereco {
+    left: 365px;
+    top: 825px;
+  }
+
+  #label-endereco {
+    left: 365px;
+    top: 790px;
+  }
+  
+  #valor {
+    left: 375px;
+    top: 682px;
+  }
+  
+  #label-valor {
+    left: 385px;
+    top: 642px;
+    left: 640;
+  }  
+
+  #quartos {
+    left: 680px;
+    top: 682px;
+  }
+  
+  #label-quartos {
+    left: 630px;
+    top: 642px;
+  }
+  
+  #tamanho {
+    left: 896px;
+    top: 682px;
+  }
+
+  #quadrado {
+    left: 940px;
+    top: 674px;
+  }
+
+  #label-tamanho {
+    left: 856px;
+    top: 642px;
+  }
+  
+  .label {
+    position: absolute;
+    color: #FBBC05;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    pointer-events: none; 
+  }
+  
+  .logo {
+    width: 226px;
+    height: 105px;
+    left: 79px;
+    top: 17px;
+    position: absolute;
+    color: black;
+    font-size: 64px;
+    font-family: Lobster;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+  }
+  
+  .image {
+    width: 666px;
+    height: 461px;
+    left: 357px;
+    top: 170px;
+    position: absolute;
+  } 
+  
+  .button, .label {
+    cursor: pointer;
+  }
+  
+  .button:hover, .label:hover {
+    text-decoration: underline;
+  }
+  
+  #alugar {
+    left: 585px;
+    top: 918px;
+    width: 250px; 
+    height: 40px; 
+    background: #0557C0;
+    color: white;
+    font-size: 20px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  

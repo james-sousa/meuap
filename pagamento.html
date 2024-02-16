@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário de Pagamento</title>
+<link rel="stylesheet" href="pagamento.css">
+</head>
+<body>
+  <div class="barra-amarela">
+
+            
+    <header>
+        <a href="#">
+            <div class="logo">MeuAp</div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="/home4.html">Home</a></li>
+                <li><a href="/cadastro_imovel.html">Proprietários</a></li>
+                
+                <li><a href="#">Blog</a></li>
+                <div class="caixa-pequena">
+                    <li><a href="login2.html">Sair</a></li>
+                </div>
+                
+            </ul>
+        </nav>
+    </header>
+  </div>
+  <div class="container">
+        <main>
+            <div class="img-wrapper">
+                <img src="images/imv3.jpg" alt="">
+            </div>
+            <div class="caixa-amarela">
+
+                <div class="hero">
+                    <h1>Seção de pagamento</h1>
+                    
+                </div>
+                <form action="#">
+                    <div class="metodo-pagamento">
+                      <h3>Selecione o método de pagamento:</h3>
+                      <div class="opcoes">
+                        <input type="radio" name="metodo" id="pix" value="pix" checked>
+                        <label for="pix">
+                          <img src="/images/icons8-foto-50.png" alt="Pix">
+                          <span>Chave Pix</span>
+                        </label>
+                        <input type="radio" name="metodo" id="cartao" value="cartao">
+                        <label for="cartao">
+                          <img src="/images/icons8-parte-traseira-de-cartão-de-banco-50.png" alt="Cartão">
+                          <span>Cartão</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="detalhes-pagamento">
+                      <div class="pix" id="pix-container">
+                        <input type="text" name="chave-pix" placeholder="Digite sua chave Pix">
+                      </div>
+                      <div class="cartao" id="cartao-container">
+                        <input type="text" name="numero-cartao" placeholder="Digite o número do cartão">
+                        <input type="text" name="nome-cartao" placeholder="Digite o nome do titular">
+                        <div class="validade-cvv">
+                          <input type="text" name="validade" placeholder="Data de validade">
+                          <input type="text" name="cvv" placeholder="CVV">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cpf">
+                      <input type="text" name="cpf" placeholder="Digite seu CPF">
+                    </div>
+                    <button type="submit">Finalizar</button>
+                  </form>
+            </div>
+            
+            
+
+        </main>
+       
+      <footer>
+          <div class="footer-container">
+              <p>Copyrigth &copy; 2024, MeuAp P.D-Todos os direitos reservados</p>
+              <div class="social-list">
+                <ul>
+                  <li><a href="https://github.com/james-sousa"><i class="fab fa-github-alt"></i></a></li>
+                  <li><a href="https://www.instagram.com/james_sousa_of/"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/james-sousa-bb5bb51b1/"><i class="fab fa-linkedin"></i></a></li>
+  
+                </ul>
+              </div>
+  
+          </div>
+      </footer>
+        
+  </div>
+</body>
+</html>
